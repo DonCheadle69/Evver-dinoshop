@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+	justify-content: center;
+	display: flex;
+}
+
+header h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: serif;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-color: peachpuff;
+  background-size: cover;
+  color: burlywood;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.jumbotron .container .row img {
+	width:25%;
+}
+.jumbotron h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 50%;
+}
+section h1 div figure {
+	position:relative;
+}
+section h1 div figure img {
+	display: block;
+  margin: 0 auto;
+}
+.container .row .col-sm-6 .col-sm-4 {
+	width:25%;
+	margin:25 25 25px;
+}
+.container {
+	display: block;
+	align-items: center;
+	overflow:hidden;
+}
+.container h1 {
+	text-align: center;
+}
+.container  h3 {
+	text-align: center;
+}
+footer .row {
+  display: flex;
+  align-items: center;
+}
+footer {
+  font-size: 16px;
+  padding: 10px 0;
+}
+footer .col-sm-8 {
+  display: flex;
+}
+
+footer ul {
+  list-style: none;
+}
+
+/* scroll animation on title thing */
+.scrolling-text-container {
+  width: 100%; /* Adjust the width as needed */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.scrolling-text {
+  display: inline-block;
+  animation: scrollText 20s linear infinite; /* Adjust the animation duration as needed */
+  
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
